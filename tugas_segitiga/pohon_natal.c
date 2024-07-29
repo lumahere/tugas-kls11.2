@@ -27,7 +27,7 @@ void pohon_natal(int rows, int tangkai){
     }
   // untuk membuat tangkai, kita hanya akan membuat loop sampai ke jumlah rows karena pasti dijamin
   // setengah dari i * 2, kalo mau gak hilangin semua kode di bawah ini biar gaada tangkai.
-    for (int i=0; i < 2; i++){
+    for (int i=0; i < tangkai; i++){
         for(int j=0; j< rows-1; j++){
             printf(" ");
         }
