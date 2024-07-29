@@ -5,6 +5,8 @@ int main() {
     
     printf("barisnya mw brp? ");
     scanf("%d", &rows); // input rows
+    rows += 1; // karena ada bug dikit
+
     
     // IDE utama:
     // kita harus ada 2x print yang berlawanan arah 
