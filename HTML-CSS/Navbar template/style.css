@@ -17,6 +17,19 @@ body{
     align-items: center;
     flex-direction: column;
 }
+.head h1{
+    z-index: 1;
+}
+.head p {
+    z-index: 1;
+    background-color: rgb(27, 26, 26);
+    padding: 10px;
+    transition: 0.1s ease-in-out;
+}
+.head p:hover{
+   background-color: #474545;
+   cursor: pointer; 
+}
 .nav{
     position: relative;
     justify-content: flex-start;
